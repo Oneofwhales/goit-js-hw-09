@@ -1,0 +1,18 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  gap: 16px;
+}
+
+.gallery-item {
+  width: calc((100% - 2 * 16px) / 3);
+}
+
+.gallery-image {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+  cursor: pointer;
+}
